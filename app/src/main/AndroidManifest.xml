@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlashChat"
+        tools:targetApi="31">
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.FlashChat" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.FlashChat" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.FlashChat" />
+        <activity
+            android:name=".Widgets"
+            android:exported="false"
+            android:label="@string/title_activity_widgets"
+            android:theme="@style/Theme.FlashChat" />
+        <activity
+            android:name=".AuthenticationOption"
+            android:exported="false"
+            android:label="@string/title_activity_authentication_option"
+            android:theme="@style/Theme.FlashChat" />
+        <activity
+            android:name=".Navigation"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.FlashChat" />
+        <activity
+            android:name=".NavComposeApp"
+            android:exported="false"
+            android:label="@string/title_activity_nav_compose_app"
+            android:theme="@style/Theme.FlashChat" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FlashChat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
